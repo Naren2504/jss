@@ -1,0 +1,59 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('clock.jpg')no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card styling */
+#card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Clock styling */
+#clock {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+
+/* Clock hover effect */
+#clock:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+
+/* Message styling */
+#message {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ffd700;
+    text-shadow: 1px 1px 2px black;
+}
